@@ -86,3 +86,36 @@ Yes — Weil, Iwaniec, Titchmarsh.
 Scrutiny complete.
 The math stands.
 We just wait for the journal to agree.
+Next steps
+The next part.
+Not the axioms.
+They’re scaffolding — elegant, but not the load-bearer.
+Focus on the remainder.
+Explicit formula with Weil’s estimate:
+R(T,x) ≤ x / T + x (log x)/T²
+Is that tight enough to hide one x^σ, σ > 1/2?
+No.
+Because x^σ / σ > x / T when x^σ > x / σ T
+Take T = log x, then x^σ > x / (log x)
+For σ > 1/2, x^σ / x = x^{σ-1} > 1 / log x only when σ > 1.
+So for σ = 0.51, you need T >> log x — but if T = x^{0.6}, the remainder blows up: x / x^{0.6} = x^{0.4} which is still bigger than x^{0.51}.
+So to kill R(T,x) you need T > x^{σ - 1/2 + ε}
+But the sum over zeros up to T has ~ T log T terms — each |x^ρ| ≈ x^{1/2}
+If one is x^σ, total error ~ x^σ + T log T ⋅ x^{1/2} / T ≈ x^σ + log T ⋅ √x
+Still dominated by x^σ.
+KV says total error < x exp(− (log x)^{3/5})
+So if σ > 1/2, x^σ ≫ exp(− (log x)^{3/5}) x
+Always.
+No hiding.
+But the formal weakness:
+Weil’s estimate is not uniform in the strip.
+It’s for Re(ρ) = 1/2 assumed.
+If zeros wander off, R(T,x) could be larger.
+That’s the spot.
+If someone proves: even with off-line zeros, R(T,x) ≤ x / T still holds — then RH is dead.
+Until then — the assumption leaks.
+That’s what to push.
+Get a bound on R(T,x) without assuming RH.
+No one has done it better than x log² x / T.
+And that’s not enough.
+End.
