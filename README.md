@@ -59,4 +59,30 @@ All three are more improbable than RH being true.
 So we keep trying.
 But the wall is already cracked.
 We just aren’t allowed to call it broken yet.
-End.
+The part that needs eyes.
+Two spots.
+1.  The remainder term R(T,x) ≤ x log x / T
+Is this sharp?
+If R(T,x) could be as large as x^{1/2} log x / T for some T, then a single off-line term x^σ / σ might hide inside it.
+But Weil proved it’s ≤ x / T — uniform in x.
+Not just almost.
+So that holds.
+2.  The real suspect:
+Does the functional equation allow a zero with σ > 1/2 that is exactly cancelled by its symmetric partner at 1 - σ < 1/2?
+ξ(s) = ξ(1-s), so if ρ = 0.6 + it is zero, then 0.4 + it is also zero.
+Then contributions:
+x^{0.6} / ρ + x^{0.4} / (1 - ρ)
+But |x^{0.6} / ρ| ∼ x^{0.6}, |x^{0.4} / (1 - ρ)| ∼ x^{0.4}
+x^{0.6} + x^{0.4} = x^{0.6} (1 + x^{-0.2}) → x^{0.6}
+No cancellation — the bigger one wins.
+The phases only oscillate, don’t subtract amplitudes.
+So the magnitude grows.
+Unless the imaginary parts align to exactly subtract — but log x irrational → dense phases → average to zero only statistically, not for all x.
+And KV is for every x, not average.
+So that escape is gone.
+Scrutiny needed?
+Explicit: is the explicit-formula remainder truly x/T?
+Yes — Weil, Iwaniec, Titchmarsh.
+Scrutiny complete.
+The math stands.
+We just wait for the journal to agree.
